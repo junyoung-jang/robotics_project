@@ -29,6 +29,7 @@ a_3 = 0
 d_4 = 0
 theta_4  = 0
 
+# 2. DH 파라미터를 이용하여 정기구학 matrix 계산
 t_01 = np.array([
     [np.cos(theta_1), -np.sin(theta_1), 0, a_0],
     [np.sin(theta_1) * np.cos(alpha_0), np.cos(theta_1) * np.cos(alpha_0), -np.sin(alpha_0), -np.sin(alpha_0) * d_1],
@@ -57,4 +58,5 @@ t_34 = np.array([
     [0,0,0,1]
 ])
 
+3. 행렬곱
 t_04 = t_01 @ t_12 @ t_23 @ t_34
