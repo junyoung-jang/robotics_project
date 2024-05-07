@@ -1,4 +1,4 @@
-## 정기구학, 역기구학에서 사용하는 기본적인 라이브러리
+## 정기구학
 
 import numpy as np
 import matplotlib.pyplot as plt
