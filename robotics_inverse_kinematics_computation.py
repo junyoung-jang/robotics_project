@@ -10,3 +10,5 @@ xc = 0.0
 yc = 0.0
 # theta 1 설정
 theta1 = np.arctan2(yc / xc)
+r = np.sqrt(xc ** 2 + yc ** 2)
+a2 = np.arccos()
